@@ -17,8 +17,8 @@ body {
 svg * {
 	stroke-linecap: square;
 	stroke-linejoin: miter;
-	rx: 0;
-	ry: 0;
+	/* rx: 0;
+	ry: 0; */
 }
 
 .menu {
@@ -27,6 +27,7 @@ svg * {
 
 .menu-item {
 	padding: var(--size-4-1) var(--size-4-2);
+	border-radius: 2px;
 }
 
 .menu-separator {
